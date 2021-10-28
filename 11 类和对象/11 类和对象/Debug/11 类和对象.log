@@ -1,0 +1,4 @@
+﻿  06 封装-案例2-点和圆的关系.cpp
+D:\C++\workspace\01-初学C++\study\11 类和对象\11 类和对象\06 封装-案例2-点和圆的关系.cpp(49,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+D:\C++\workspace\01-初学C++\study\11 类和对象\11 类和对象\06 封装-案例2-点和圆的关系.cpp(51,16): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  11 类和对象.vcxproj -> D:\C++\workspace\01-初学C++\study\11 类和对象\Debug\11 类和对象.exe
