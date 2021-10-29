@@ -44,7 +44,7 @@ void test05() {
 	Person5 p1(p);
 	cout << "p1的年龄为：" << p1.m_Age << "\tp1的身高为：" << *p1.m_height << endl;
 }
-int main() {
+int main5() {
 	test05();
 	system("pause");
 	return 0;
