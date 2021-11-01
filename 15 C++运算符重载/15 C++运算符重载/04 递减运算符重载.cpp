@@ -25,7 +25,7 @@ void test04() {
 	cout << myint << endl;
 	cout << --myint << endl;
 }
-int main() {
+int main04() {
 	test04();
 	system("pause");
 	return 0;
