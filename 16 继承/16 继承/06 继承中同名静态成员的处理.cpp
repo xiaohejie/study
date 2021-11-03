@@ -40,14 +40,14 @@ void test06() {
 	cout << "Base下的静态成员：" << Son06::Base06::m_A<< endl;
 
 	/*
-		同名静态函数
+		同名静态函数-
 	*/
 	/*s.func();
 	s.Base06::func();*/
 	Son06::func();
 	Son06::Base06::func();
 }
-int main() {
+int main6() {
 	test06();
 	system("pause");
 	return 0;
