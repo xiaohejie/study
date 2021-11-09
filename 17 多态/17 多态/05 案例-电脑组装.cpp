@@ -154,7 +154,7 @@ void test05() {
 	delete c1;
 }
 
-int main() {
+int main5() {
 	test05();
 	system("pause");
 	return 0;

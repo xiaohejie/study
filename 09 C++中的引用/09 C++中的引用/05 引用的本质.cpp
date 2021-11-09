@@ -14,7 +14,7 @@ int main5() {
 	ref = 20;//内部发现ref是引用，自动帮我们转化为*ref = 20;
 	cout << "a:" << a << endl;
 	cout << "ref:" << ref << endl;
-
+ 
 	func(a);
 	cout << "a:" << a << endl;
 	cout << "ref:" << ref << endl;

@@ -6,9 +6,10 @@ void exercise(int* num , int len) {
 	for (int i = 0; i < len; i++)
 	{
 		if (start <= end) {
-			int temp = num[start];
+			/*int temp = num[start];
 			num[start] = num[end];
-			num[end] = temp;
+			num[end] = temp;*/
+			swap(num[start] , num[end]);
 			start++;
 			end--;
 		}
@@ -22,9 +23,10 @@ void exercise(int* num , int len) {
 
 void exercise2(int* num , int start , int end) {
 	if (start <= end) {
-		int temp = num[start];
+		/*int temp = num[start];
 		num[start] = num[end];
-		num[end] = temp;
+		num[end] = temp;*/
+		swap(num[start], num[end]);
 		exercise2(num, start+1, end-1);
 	}
 	
@@ -40,7 +42,7 @@ void test100() {
 	}
 	cout << endl;
 }
-int main100() {
+int main() {
 	test100();
 	system("pause");
 	return 0;
