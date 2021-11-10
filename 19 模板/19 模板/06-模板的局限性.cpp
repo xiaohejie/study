@@ -52,7 +52,7 @@ void test06() {
 	}
 }
 int main() {
-	test06();
+	test06 ();
 	system("pause");
 	return 0;
 }
