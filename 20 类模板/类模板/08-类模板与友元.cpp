@@ -41,7 +41,7 @@ void test08() {
 	//printPerson(p);
 	printPerson2(p);
 }
-int main() {
+int main8() {
 	test08();
 	system("pause");
 	return 0;
